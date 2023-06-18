@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="javascript.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Qr-coder</title>
+  </head>
+  <body>
+<nav class="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+  <div class="max-w-screen-xl p-3 ml-8">
+    <a href="#" class="flex justify-center">
+        <img src="public/vite.svg" class="h-8 mr-4" alt="Logo" />
+        <span class="text-2xl font-semibold dark:text-white">Qr-Code Generator</span>
+    </a>
+  </div>
+</nav>
+</div>
+<div class="container mt-4 ml-20">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 shadow-inherit">
+    <div class="card m-2 cursor-pointer border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200">
+      <div class="m-3">
+        <span class="text-sm text-teal-800 font-mono bg-teal-100 inline rounded-full px-2 align-top float-right animate-pulse">Url</span>
+        <h2 class="text-lg mb-2">Website URL 🔗
+          <form>
+            <input type="url" id="urlink" name="url" class="bg-slate-200 border-2 rounded-md">
+          </form>
+      </h2>
+      <p class="font-light font-mono text-sm text-gray-700 hover:text-gray-900 transition-all duration-200">Space, the final frontier. 
+        These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds.</p>
+        </div>
+    </div>
+      <div class="card m-2 cursor-pointer border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200">
+        <div class="m-3">
+          <span class="text-sm text-teal-800 font-mono bg-teal-100 inline rounded-full px-2 align-top float-right animate-pulse">Mail</span>
+          <h2 class="text-lg mb-2">Email ✉<form>
+            <input type="url" id="urlink" name="url" class="bg-slate-200 border rounded-md">
+          </form>
+         </h2>
+        <p class="font-light font-mono text-sm text-gray-700 hover:text-gray-900 transition-all duration-200">Space, the final frontier. 
+          These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds.</p>
+          </div>
+      </div>
+      <div class="card m-2 cursor-pointer border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200">
+        <div class="m-3">
+          <span class="text-sm text-teal-800 font-mono bg-teal-100 inline rounded-full px-2 align-top float-right animate-pulse">Call</span>
+          <h2 class="text-lg mb-2">Phone Number 📞<form>
+            <input type="url" id="urlink" name="url" class="bg-slate-200 border-2 rounded-md">
+          </form>
+         </h2>
+        <p class="font-light font-mono text-sm text-gray-700 hover:text-gray-900 transition-all duration-200">Space, the final frontier. 
+          These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds.</p>
+          </div>
+      </div>
+      <div class="card m-2 cursor-pointer border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200 ">
+        <div class="m-3">
+          <span class="text-sm text-teal-800 font-mono bg-teal-100 inline rounded-full px-2 align-top float-right animate-pulse">App</span>
+          <h2 class="text-lg mb-2">App Store 📱<form>
+            <input type="url" id="urlink" name="url" class="bg-slate-200 border-2 rounded-md">
+          </form>
+         </h2>
+        <p class="font-light font-mono text-sm text-gray-700 hover:text-gray-900 transition-all duration-200">Space, the final frontier. 
+          These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds.</p>
+          </div>
+      </div>
+      </div>  
+      <div class="container border-2 border-gray-600 rounded-md mx-auto">
+        <img class="mx-auto" src="public/expqr.jpg" alt="image description" height="400px" width="400px">
+      </div>
+      <div class="container grid place-items-center grid-flow-col grid-cols-3 space-x-0 col-start-1 col-end-3" className="contactdiv">
+      <button class="bg-purple-900 text-white hover:bg-blue-400 font-bold py-2 px-4 mt-3 rounded col-start-3 col-end-3">Download 📥</button>
+      <button class="bg-purple-900 text-white hover:bg-blue-400 font-bold py-2 px-4 mt-3 rounded ">Generate 📥</button>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    </body>
+</html>
